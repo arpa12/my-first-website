@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+}
+section{
+    height: 480px;
+    padding-bottom: 5px;
+}
+
+
+h1{
+    font-size: 50px;
+}
+#heading{
+    color: crimson;
+    
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+#hired{
+    color: white;
+    font-size: large;
+    background-color: crimson;
+}
+.top-side{
+    background-image: url("images/abstract-technology-particle-gray-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(175, 102, 102),crimson);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.down-side .half-width h1{
+    color: crimson;
+}
+.down-side .half-width h2{
+    font-size: larger;
+}
+#second_headline{
+    font-size: 40px;
+}
+.down-side .half-width img{
+    border-radius: 10%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    height: 50%;
+}
+.experience-area{
+    background-image: url("images/paper-style-white-monochrome-background_23-2149017129.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstbox{
+    border-left: 10px solid crimson;
+    border-image: linear-gradient(180deg,rgb(175, 102, 102),crimson);
+    border-image-slice:1;
+}
+#secondbox{
+    border-left: 10px solid crimson;
+    border-image: linear-gradient(180deg,crimson,rgb(175, 102, 102));
+    border-image-slice: 1;
+}
